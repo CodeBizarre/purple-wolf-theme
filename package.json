@@ -1,0 +1,21 @@
+{
+    "name": "purple-wolf-theme",
+    "displayName": "Purple Wolf Theme",
+    "description": "A dark, purple and blue theme to howl about!",
+    "version": "0.1.0",
+    "engines": {
+        "vscode": "^1.60.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Purple Wolf Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Purple Wolf Theme-color-theme.json"
+            }
+        ]
+    }
+}

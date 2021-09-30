@@ -1,0 +1,286 @@
+// TODO: activityBarBadge colors (Need to figure out a good color for these)
+// TODO: Button colors, related directly to activityBarBadge
+{
+	// General
+	"name": "Purple Wolf Theme",
+	"type": "dark",
+
+	// Editor colors
+	"colors": {
+		"editor.background": "#23262F",
+		"editor.foreground": "#F0F0F0",
+		"editorGroupHeader.tabsBackground": "#23262F",
+		"titleBar.activeBackground": "#23262F",
+		"sideBar.background": "#1A1C23",
+		"sideBarTitle.foreground": "#F0F0F0",
+		"sideBarSectionHeader.background": "#23262F",
+		"tab.inactiveBackground": "#23262F",
+		"activityBar.background": "#1A1C23",
+		"notifications.background": "#23262F",
+		"input.background": "#23262F",
+		"settings.textInputBackground": "#23262F",
+		"dropdown.background": "#23262F",
+		"dropdown.listBackground": "#23262F",
+		"quickInput.background": "#1A1C23",
+		"quickInputList.focusBackground": "#23262F",
+		"settings.dropdownBackground": "#23262F",
+		"list.hoverBackground": "#23262F",
+		"list.activeSelectionBackground": "#252833",
+		"list.focusBackground": "#23262F",
+		"terminal.foreground": "#F0F0F0",
+		"debugToolBar.background": "#1A1C23",
+	},
+
+	// Language agnostic syntax
+	"tokenColors": [
+		{
+			"name": "Comment",
+			"scope": [
+				"comment",
+				"punctuation.definition.comment"
+			],
+			"settings": {
+				"foreground": "#ADB2C2"
+			}
+		},
+		{
+			"name": "Variables",
+			"scope": [
+				"variable",
+				"string constant.other.placeholder"
+			],
+			"settings": {
+				"foreground": "#F0F0F0"
+			}
+		},
+		{
+			"name": "Colors",
+			"scope": "constant.other.color",
+			"settings": {
+				"foreground": "#F0F0F0"
+			}
+		},
+		{
+			"name": "Invalid",
+			"scope": [
+				"invalid",
+				"invalid.illegal"
+			],
+			"settings": {
+				"foreground": "#F0F0F0"
+			}
+		},
+		{
+			"name": "Keyword, Storage",
+			"scope": [
+				"keyword",
+				"keyword.control",
+				"storage.type",
+				"storage.modifier"
+			],
+			"settings": {
+				"foreground": "#B490E0"
+			}
+		},
+		{
+			"name": "Operator, Misc",
+			"scope": [
+				"constant.other.color",
+				"meta.tag"
+			],
+			"settings": {
+				"foreground": "#00A0CC"
+			}
+		},
+		{
+			"name": "Operator, Misc",
+			"scope": [
+				"punctuation.definition.tag",
+				"punctuation.separator.inheritance.php",
+				"punctuation.definition.tag.html",
+				"punctuation.definition.tag.begin.html",
+				"punctuation.definition.tag.end.html",
+				"punctuation.section.embedded",
+				"keyword.other.template",
+				"keyword.other.substitution"
+			],
+			"settings": {
+				"foreground": "#F0F0F0"
+			}
+		},
+		{
+			"name": "Tag",
+			"scope": [
+				"entity.name.tag",
+				"meta.tag.sgml",
+				"markup.deleted.git_gutter"
+			],
+			"settings": {
+				"foreground": "#FF5370"
+			}
+		},
+		{
+			"name": "Function, Special Method",
+			"scope": [
+				"entity.name.tag",
+				"entity.name.function",
+				"meta.function-call",
+				"variable.function",
+				"support.function",
+				"keyword.other.special-method"
+			],
+			"settings": {
+				"foreground": "#D8D8FF"
+			}
+		},
+		{
+			"name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
+			"scope": [
+				"constant.numeric",
+				"constant.language",
+				"support.constant",
+				"constant.character",
+				"constant.escape",
+				"variable.parameter",
+				"keyword.other.unit",
+				"keyword.other"
+			],
+			"settings": {
+				"foreground": "#A0E8FF"
+			}
+		},
+		{
+			"name": "String, Symbols, Inherited Class, Markup Heading",
+			"scope": [
+				"string",
+				"constant.other.symbol",
+				"constant.other.key",
+				"entity.other.inherited-class",
+				"markup.heading",
+				"markup.inserted.git_gutter",
+				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
+			],
+			"settings": {
+				"foreground": "#A0E8FF"
+			}
+		},
+		{
+			"name": "Class, Support",
+			"scope": [
+				"entity.name",
+				"support.type",
+				"support.class",
+				"support.other.namespace.use.php",
+				"meta.use.php",
+				"support.other.namespace.php",
+				"markup.changed.git_gutter",
+				"support.type.sys-types"
+			],
+			"settings": {
+				"foreground": "#CF81D9"
+			}
+		},
+		{
+			"name": "Language methods",
+			"scope": "variable.language",
+			"settings": {
+				"foreground": "#FF5370"
+			}
+		},
+		{
+			"name": "Attributes",
+			"scope": "entity.other.attribute-name",
+			"settings": {
+				"foreground": "#E170BB"
+			}
+		},
+		{
+			"name": "Inserted",
+			"scope": "markup.inserted",
+			"settings": {
+				"foreground": "#C3E88D"
+			}
+		},
+		{
+			"name": "Deleted",
+			"scope": "markup.deleted",
+			"settings": {
+				"foreground": "#FF5370"
+			}
+		},
+		{
+			"name": "Changed",
+			"scope": "markup.changed",
+			"settings": {
+				"foreground": "#C792EA"
+			}
+		},
+		{
+			"name": "Regular Expressions",
+			"scope": "string.regexp",
+			"settings": {
+				"foreground": "#89DDFF"
+			}
+		},
+		{
+			"name": "Escape Characters",
+			"scope": "constant.character.escape",
+			"settings": {
+				"foreground": "#89DDFF"
+			}
+		},
+		{
+			"name": "URL",
+			"scope": [
+				"*url*",
+				"*link*",
+				"*uri*"
+			],
+			"settings": {
+				"fontStyle": "underline"
+			}
+		},
+		{
+			"name": "Arguments Begin/End",
+			"scope": [
+				"punctuation.definition.arguments.begin",
+				"punctuation.definition.arguments.end"
+			],
+			"settings": {
+				"foreground": "#F0F0F0"
+			}
+		},
+		// Language-Specific
+		// CSS
+		{
+			"name": "CSS Class and Support",
+			"scope": [
+				"source.css support.type.property-name",
+				"source.sass support.type.property-name",
+				"source.scss support.type.property-name",
+				"source.less support.type.property-name",
+				"source.stylus support.type.property-name",
+				"source.postcss support.type.property-name"
+			],
+			"settings": {
+				"foreground": "#B490E0"
+			}
+		},
+		// Python
+		{
+			"name": "Python Decorators",
+			"scope": "punctuation.definition.decorator.python",
+			"settings": {
+				"foreground": "#B490E0"
+			}
+		},
+		// Rust
+		{
+			"name": "Rust Function Definitions",
+			"scope": "keyword.other.fn.rust",
+			"settings": {
+				"foreground": "#B490E0"
+			}
+		}
+	]
+}
