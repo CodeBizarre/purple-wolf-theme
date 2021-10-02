@@ -281,6 +281,14 @@
 			"settings": {
 				"foreground": "#B490E0"
 			}
+		},
+		// SQL
+		{
+			"name": "SQL Keywords",
+			"scope": "keyword.other.sql",
+			"settings": {
+				"foreground": "#D8D8FF"
+			}
 		}
 	]
 }
