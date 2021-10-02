@@ -39,8 +39,25 @@ D8D8FF
 
 ## Screenshots
 
-Haskell
-![](https://i.imgur.com/E6i12JG.png)
+UI/Project
+
+![](https://i.imgur.com/jAW9905.png)
 
 Python
-![](https://i.imgur.com/xhca8hg.png)
+
+![](https://i.imgur.com/3D7MNkt.png)
+
+Haskell
+
+![](https://i.imgur.com/KD2v9Et.png)
+
+HTML
+
+![](https://i.imgur.com/59wMrJm.png)
+
+CSS
+
+![](https://i.imgur.com/2bIP4YM.png)
+
+## Before you ask:
+The shell theme is stelbent.minimal on oh-my-posh
