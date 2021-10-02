@@ -3,12 +3,20 @@
     "displayName": "Purple Wolf Theme",
     "description": "A dark, purple and blue theme to howl about!",
     "version": "1.0.0",
+    "publisher": "code-bizarre",
     "engines": {
         "vscode": "^1.60.0"
     },
     "categories": [
         "Themes"
     ],
+    "license": "MIT",
+    "homepage": "https://github.com/CodeBizarre/purple-wolf-theme",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/CodeBizarre/purple-wolf-theme"
+    },
+    "icon": "icon.png",
     "contributes": {
         "themes": [
             {
