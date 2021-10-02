@@ -61,3 +61,5 @@ CSS
 
 ## Before you ask:
 The shell theme is stelbent.minimal on oh-my-posh
+
+The icon is from [Pixabay](https://pixabay.com/), and the original can be found [here](https://pixabay.com/vectors/tattoo-silhouette-night-nature-5389284/).
