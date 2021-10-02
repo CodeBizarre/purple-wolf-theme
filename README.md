@@ -33,7 +33,7 @@ D8D8FF
 | Comments   | #ADB2C2 |
 | Keywords   | #B490E0 |
 | Color/Meta | #00A0CC |
-| Functions  | #D8D8FF |
+| Functions  | #C2C2FF |
 | Str/Const  | #A0E8FF |
 | Name/Class | #CF81D9 |
 

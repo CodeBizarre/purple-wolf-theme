@@ -130,7 +130,7 @@
 				"keyword.other.special-method"
 			],
 			"settings": {
-				"foreground": "#D8D8FF"
+				"foreground": "#C2C2FF"
 			}
 		},
 		{
@@ -287,7 +287,7 @@
 			"name": "SQL Keywords",
 			"scope": "keyword.other.sql",
 			"settings": {
-				"foreground": "#D8D8FF"
+				"foreground": "#C2C2FF"
 			}
 		}
 	]
