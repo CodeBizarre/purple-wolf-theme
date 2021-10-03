@@ -5,6 +5,8 @@
 
 ---
 
+Get the theme for VS Code on the [marketplace](https://marketplace.visualstudio.com/items?itemName=code-bizarre.purple-wolf-theme)!
+
 This project is my second theme, my goal is to provide a slightly more refined experience and reduce some of the brightness in [my previous theme](https://github.com/CodeBizarre/vscode-awoo-theme) ([marketplace](https://marketplace.visualstudio.com/items?itemName=code-bizarre.awoo-theme)).
 
 I decided not to simply update my previous work, since I have received much posiive feedback on it and instead have created a new theme from the ground up, as I would hate to take away something that others enjoyed. I will also continue to maintain the Awoo theme as required.
