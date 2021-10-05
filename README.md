@@ -21,7 +21,6 @@ That being said, I appreciate any and all constructive feedback, and encourage c
 
 ## Colors used
 These are approximately in the order they appear in the theme.json file
-D8D8FF
 
 | Syntax     | Color   |
 | ---------- | ------- |
